@@ -1,11 +1,11 @@
-#Ativiades-HTML+CSS+JAVA
-Para caso não funcione:
+#Atividades-Via GitHub
+ Para caso não funcione:
 
-Atividade 1 HTML.
-https://codepen.io/RyanHgit/full/dyBrVRP ;
+Fase 1 HTML.
+ https://codepen.io/RyanHgit/full/dyBrVRP ;
 
-Atividade 2 HTML+CSS.
-LINK;
+Fase 2 HTML+CSS.
+ LINK;
 
-Atividade 3 HTML+CSS+JAVA.
-LINK;
+Fase 3 HTML+CSS+JAVA.
+ LINK;
