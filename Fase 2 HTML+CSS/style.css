@@ -1,0 +1,53 @@
+body{
+  font-family: Arial,sans-serif;
+  background-color:#2f041f;
+  color:#f9af0c;
+  text-align:center;
+}
+h1,h2{
+  color:#f9af0c;
+} 
+.profile-gallery{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin-bottom:20px;
+} 
+.thumbnails{
+  display:flex;
+  gap:10px;
+  margin-bottom:10px;
+} 
+.thumbnails img {
+  width:100px;
+  height:100px;
+  object-fit:cover;
+  border: 2px solid transparent;
+  cursor:pointer;
+  border-radius:50%;
+} 
+.thumbnails {
+  display:none;
+} 
+.main-image img{
+  width:200px;
+  height:200px;
+  object-fit:cover;
+  border-radius:50%;
+  transition:border 0.3s ease;
+} .main-image:hover{
+  border:5px solid #207076;
+  border-radius:50%;
+}
+table{
+  width:80%;
+  margin:20px auto;
+  border-collapse:collapse;
+  background-color:#32184b;
+  color:#f9af0c;
+}
+td{
+  padding:10px;
+  border:1px solid #ccc;
+}
+ 

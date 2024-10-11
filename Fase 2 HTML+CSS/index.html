@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+<title> Atividade Perfil Do Aluno</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Ryan Horácio Silva</h1> 
+    <div class="profile-gallery">
+      <div class="main-image">
+      <img id="mainImage" src="https://assets.codepen.io/13063257/internal/avatars/users/default.png?fit=crop&format=auto&height=512&version=1726718581&width=512" alt="foto principal" onclick="changeImage()"> </div>
+<div class="thumbnails">
+<img src="https://assets.codepen.io/13063257/internal/avatars/users/default.png?fit=crop&format=auto&height=512&version=1726718581&width=512" alt="foto 1">     
+ <img src="https://media.licdn.com/dms/image/v2/D4E03AQFdB2mdQoZXLQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726035569973?e=1733961600&v=beta&t=NhS6eySNxqRCgEaBMDUKDa7eKCmrJ5ZCap4Qw8TyH04"alt="foto 2"> 
+      </div>
+ <table> 
+ <tr>
+ <td colspan="2">
+Sistema de Informação</td>
+ <td>4ºperíodo</td>
+<td>País: Brasil.</td>
+<td>Estado: Minas Gerais.</td>
+<td>Cidade: Santa Luzia.</td>
+<td>Bairo: São Benedito.</td> </tr>
+    </table>
+<h2>UCS Já Cursadas:</h2>
+   <table>
+    <tr> 
+    <td colspan="2">
+Ambientes computacionais e conectividade.</td>
+<td>Gestão e qualidade de software.</td>
+<td>Modelagem de software.</td>
+<td>Modelos,métodos e técnicas da engenharia de software.</td><td>Programação de soluções computacionais.</td>
+<td>Sistemas computacionais e segurança.</td>
+<td>Vida & Carreira.</td>
+     </tr>
+      </table>
+    <h2>Descrição Pessoal:</h2>
+     <table>
+    <tr> 
+    <td colspan="2">
+Apaixonado por video games,ouvir musicas antigas e gosto de ver esporte de lutas.Gosto de passar o tempo com minha família e amigos,além de estar estudando na aréa de TI.
+      </td> 
+      </tr>
+       </table>
+<h2> Descrição Acadêmica:</h2>
+    <table>
+    <tr> 
+    <td colspan="2">
+Cursando em Sistema de Informação Pela UNA,trabalho como Ourives com meus tios.Não tenho experiência na aréa e estou procurando atualizar meu conhecimento e trabalhar de preferência com TI em HomeOffcie.</td> 
+      </tr>
+      </table>
+     <td><h2> LinKedin:</h2>
+    <table>
+    <tr> 
+     <td>www.linkedin.com/in/ryan-horácio-616766328</td> 
+      </tr>
+      </table>
+      <script>
+        const images=[         "https://media.licdn.com/dms/image/v2/D4E03AQFdB2mdQoZXLQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726035569973?e=1733961600&v=beta&t=NhS6eySNxqRCgEaBMDUKDa7eKCmrJ5ZCap4Qw8TyH04", 
+"https://assets.codepen.io/13063257/internal/avatars/users/default.png?fit=crop&format=auto&height=512&version=1726718581&width=512"
+        ]; let currentIndex=0;
+        function changeImage(){
+            const mainImage = document.getElementById('mainImage');
+            currentIndex = (currentIndex + 1) % images.length;
+            mainImage.src = images[currentIndex];
+        }
+</script> 
+  </body>
+</html>

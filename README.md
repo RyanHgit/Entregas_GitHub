@@ -6,7 +6,7 @@ Atividades de HTML+CSS+JAVA Via GitHub
     link: https://codepen.io/RyanHgit/full/dyBrVRP
     
    Fase 2
-    link: 
+    link: https://codepen.io/RyanHgit/pen/vYqqVzw 
     
    Fase 3
     link: 
